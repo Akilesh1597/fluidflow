@@ -10,7 +10,7 @@ There are plenty of graph algorithms to determine the optimal execution order.
 
 Tasks in coalesce use python's async/await syntax to solve a DAG and
 execute tasks in concurrent or sequential manner based on their dependencies.
-The dependencies can be extablished by the task's metadata. The metadata
+The dependencies can be established by the task's metadata. The metadata
 defines what data is produced and consumed by the tasks. 
 
 Tasks that consume some data produced by other tasks are chained using python's
